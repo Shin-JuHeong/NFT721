@@ -9,7 +9,7 @@ contract NFT is ERC721 {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("Chrysanthemum", "CH") {}
+    constructor() ERC721("Young", "YOUG") {}
 
     mapping(uint => string) tokenURIs;
 
